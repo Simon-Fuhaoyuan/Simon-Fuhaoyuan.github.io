@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Fu Haoyuan
     tagline: An undergraduate from SJTU, Shanghai, China
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: fhy.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: simon-fuhaoyuan@sjtu.edu.cn
@@ -81,23 +81,19 @@ projects:
     assignments:
       - title: Catch a mouse
         link: 
-        tagline: "A C++ object-oriented programming with GUI in QT creator. This is our course design in freshman grade, major in software engineering. The codes are really dirty and algorithms are low-level, so I didn't show its source."
+        tagline: "A C++ object-oriented programming with GUI in QT creator. This is my course design in freshman grade, major in software engineering. The codes are really dirty and algorithms are low-level, so I didn't show its source."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Glomerulus Image Analysis
+        link: "https://github.com/Simon-Fuhaoyuan/GlomerulusImage"
+        tagline: "A medical image analysis based on processing and classification. We tested famous CNN architectures such as VGG, ResNet, DenseNet, Inception, etc on the glomerulus image dataset. We also proposed our Inception-ResNet structure which gets the best performance based on modification of theoritical analysis."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: Optimizing Caffe
+        link: "https://github.com/Simon-Fuhaoyuan/Distibuted-Parallel-Computing"
+        tagline: "We replaced the codes based on cublas library in Caffe to cuda GPU codes. Moreover, for each size of matrix in multiplication, we optimize it case by case. We also used tricks such as shared memory, tiling, stream parallel, etc. More details can be found in the github repo."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: LeetCode
+        link: "https://github.com/Simon-Fuhaoyuan/LeetCode-100DAY-Challenge"
+        tagline: "This may not be a real project, but a leetcode solution record. I started a leetcode-100day-challenge in Dec, 2019. Now I've finished it and I will keep pushing my solutions in this repo. Hoping for your star :)"
 
 publications:
     title: Publications
