@@ -19,22 +19,15 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<!-- <span class="img"><img src="images/pic01.jpg" alt="" /></span> -->
 						<div class="row aln-middle">
 							<div class="col-4">
 								<h1>
 									<b>Haoyuan Fu</b><br />
-									<!-- 付昊源 -->
 								</h1>
 								<p>
 									Stay hungry, stay foolish.<br />
-									<!-- 当个吃货，做个SB -->
-								<!-- built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>. -->
 								</p>
 							</div>
-							<!-- <ul class="alt">
-								<li><a href="generic.html" class="button">Learn More</a></li>
-							</ul> -->
 							<div class="col-3">
 								
 							</div>
@@ -60,7 +53,7 @@
 							<li><a href="#first">Experience</a></li>
 							<li><a href="#second">Honors</a></li>
 							<li><a href="#cta">Publications</a></li>
-							<li><a href="blog.html">Blog</a></li>
+							<!-- <li><a href="blog.html">Blog</a></li> -->
 						</ul>
 					</nav>
 
@@ -97,7 +90,7 @@
 								</div>
 							</section>
 
-						<!-- First Section -->
+						<!-- Experience -->
 							<section id="first" class="main">
 								<header class="major special">
 									<h2>Experience</h2>
@@ -106,7 +99,7 @@
 									<header class="alt">
 										<h2><b>Research</b></h2>
 									</header>
-									<div class="row">
+									<div class="row aln-middle">
 										<div class="col-3 col-12-medium">
 											<h3><b>MVIG Lab</b></h3>
 											<b>Robotics, Computer Vision</b><br />
@@ -114,12 +107,18 @@
 											<a href="https://mvig.sjtu.edu.cn/">https://mvig.sjtu.edu.cn/</a>
 										</div>
 										<div class="col-9 col-12-medium">
-											Advised by Prof. Cewu Lu.
+											Advised by Prof. Cewu Lu. and Dr. Wenqiang Xu
 											<ul>
-												<li>Dolor pulvinar magna etiam.</li>
-												<li>Sagittis sed lorem adipiscing.</li>
-												<li>Felis enim etiam feugiat.</li>
-												<li>Ipsum lorem nullam consequat.</li>
+												<li>One of the main developers in project <a href="https://wenqiangx.github.io/robotflowproject/">MVIG-Robotflow</a> and contribute the initial version of it.</li>
+												<li>Develop <a href="https://sites.google.com/view/rfuniverse">RFUniverse</a> simulation environment 
+													which aims to support all kinds of house-hold tasks. Mutiple tasks and baseline Reinforcement Learning algorithms have been tested on it.</li>
+												<li>Co-author of paper "Towards Real-World Category-level Articulation Pose Estimation" (TIP 2022) and 
+													"OMAD: Object Model with Articulated Deformations for Pose Estimation and Retrieval" (BMVC 2022), where main contribution lies in data annotation and paper polishing.</li>
+												<li>Build simulation environment and train policices of all manipulation tasks in paper "AKB-48: A Real-World Articulated Object Knowledge Base" 
+													(CVPR 2022) using RL algorithms.</li>
+												<li>Design and build simulation environment and train policices for ADLs in paper "RCareWorld: A Human-centric Simulation World
+													for Caregiving Robots", which is under review of IROS 2022.</li>
+												<!-- <li>RoboTube</li> -->
 											</ul>
 										</div>
 									</div>
@@ -150,23 +149,22 @@
 								</section>
 								<hr /> -->
 								<section>
-									<header class="alt">
+									<header class="alt aln-middle">
 										<h2><b>Teaching Assistant</b></h2>
 									</header>
-									<div class="row">
+									<div class="row aln-middle">
 										<div class="col-3 col-12-medium">
-											<h3><b>Operating System</b></h3>
+											<h3><b>Operating System (D)</b></h3>
 											Spring 2022 semester<br />
 											Feb. 2022 - Jul. 2022<br />
 											Taught by Prof. Qianni Deng
 										</div>
 										<div class="col-9 col-12-medium">
-											<ul>
-												<li>Dolor pulvinar magna etiam.</li>
-												<li>Sagittis sed lorem adipiscing.</li>
-												<li>Felis enim etiam feugiat.</li>
-												<li>Ipsum lorem nullam consequat.</li>
-											</ul>
+											The requests for this TA include understanding basic concepts and theory in Operating System, basic operations in Linux OS and C-programming on Linux.
+											During the work, I was mainly responsible for refining slides, homeworks and answers which will be published to students. I worked on the second project:
+											<a href="http://www.cs.ecu.edu/sartipi/courses/OS/f12/3.LabProjects/2.Stallings-TextBook-Projects/html/project2.html">The HOST Dispatcher Shell</a> 
+											which aims to help students understand process priority, process scheduling algorithms, memory allocation algorithms and C-programming on Linux platform.
+											Besides, I made 3 presentations as tutorials during class to help students know better about project codes.
 										</div>
 									</div>
 								</section>
@@ -175,24 +173,25 @@
 									<header class="alt">
 										<h2><b>Selected Projects</b></h2>
 									</header>
-									<div class="row">
+									<div class="row aln-middle">
 										<div class="col-3 col-12-medium">
 											<h3><b>Optimizing Caffe</b></h3>
 											<b>Course Project (CS433, SJTU)</b><br />
-											Nov. 2019 - Dec. 2019<br />
+											Nov. 2019 - Jan. 2020<br />
 											Link: <a href="https://github.com/Simon-Fuhaoyuan/Distibuted-Parallel-Computing" class="icon brands fa-github"></a>
 										</div>
 										<div class="col-9 col-12-medium">
-											<ul>
-												<li>Dolor pulvinar magna etiam.</li>
-												<li>Sagittis sed lorem adipiscing.</li>
-												<li>Felis enim etiam feugiat.</li>
-												<li>Ipsum lorem nullam consequat.</li>
-											</ul>
+											Caffe is an awesome structure producing its own system of deep learning, getting rather high performance with the help of CUDA kernel functions, 
+											cudnn and cublas library. Our task here is to replace cublas functions in Caffe source code with our own CUDA kernel functions to accelerate
+											ResNet101 and Inception21k network, respectively. Since cublas library functions do matrix calculation regardless with its shape, while 
+											our customized kernel functions can optimize matrix calculation case by case when given the CNN architecture, which makes it possible for acceleration.
+											However, cublas is a hardware-level optimization for matrix calculation. We have tried tricks like data tiling, shared memory, loop unrolling, stream parallel, 
+											constant memory, kernel fusion, cache friendly operation, etc, and we gained great acceleration compared with Caffe with only general kernel functions,
+											but we still cannot defeat cublas. 
 										</div>
 									</div>
 									<br />
-									<div class="row">
+									<div class="row aln-middle">
 										<div class="col-3 col-12-medium">
 											<h3><b>Image Classification and Segmentation</b></h3>
 											<b>Course Project (CS385, SJTU)</b><br />
@@ -201,16 +200,15 @@
 											<a href="https://github.com/Simon-Fuhaoyuan/CS385-Segmentation" class="icon brands fa-github"></a>
 										</div>
 										<div class="col-9 col-12-medium">
-											<ul>
-												<li>Dolor pulvinar magna etiam.</li>
-												<li>Sagittis sed lorem adipiscing.</li>
-												<li>Felis enim etiam feugiat.</li>
-												<li>Ipsum lorem nullam consequat.</li>
-											</ul>
+											This part includes two course projects for Machine Learning, CS385. In the first project, I implemented mutiple machine learning algorithms from traditional ones like
+											logistic regression, kernel regression, LDA, SVM to modern ones like MLP, CNN (VGG11, ResNet18) to work on classification tasks of MNIST dataset. I also tried GAN to
+											generate some figures and used GradCAM on trained CNNs to get heat map with interpretability. In the second project, we worked in group to finish three tasks: multi-label
+											classification, segmentation and VAE for generation, where I was responsible for image segementation using Pascal VOC 2012 dataset and implemented FCN and U-Net using pytorch.
+											In conclusion, these two projects are not aimed to design new network architecture or new algorithms, but just focus on understanding theory of machine learning.
 										</div>
 									</div>
 									<br />
-									<div class="row">
+									<div class="row aln-middle">
 										<div class="col-3 col-12-medium">
 											<h3><b>LeetCode 100-day Challenge</b></h3>
 											<b>Training</b><br />
@@ -218,12 +216,8 @@
 											Link: <a href="https://github.com/Simon-Fuhaoyuan/LeetCode-100DAY-Challenge" class="icon brands fa-github"></a>
 										</div>
 										<div class="col-9 col-12-medium">
-											<ul>
-												<li>Dolor pulvinar magna etiam.</li>
-												<li>Sagittis sed lorem adipiscing.</li>
-												<li>Felis enim etiam feugiat.</li>
-												<li>Ipsum lorem nullam consequat.</li>
-											</ul>
+											I started a LeetCode 100 day chaallenge on Dec 5, 2019 and finally finished it on Mar 13, 2020. 
+											Currently, this repository contains 232 answers of Leetcode problems. I will continue updating this repo if I exercise more.
 										</div>
 									</div>
 								</section>
@@ -234,88 +228,94 @@
 									</header>
 									<div class="row">
 										<div class="col-1 col-12-medium">
-											<!-- <h3><b>Operating System</b></h3>
-											<b>Robotics, Computer Vision</b><br />
-											Jul. 2019 - present<br />
-											<a href="https://mvig.sjtu.edu.cn/">https://mvig.sjtu.edu.cn/</a> -->
 										</div>
 										<div class="col-11 col-12-medium">
 											<ul>
-												<li>Aug. 2018, group leader, “Zhu Fei Jiu Zhou Xing Project”;</li>
-												<li>Nov. 2018, Blood Donation;</li>
-												<li>Nov. 2018, volunteer, Shanghai International Marathon;</li>
-												<li>Apr. 2019, volunteer, Shanghai International Half Marathon;</li>
-												<li>Nov. 2019, Blood Donation;</li>
-												<li>Nov. 2019, volunteer, Shanghai International Marathon.</li>
+												<li>Group leader of “Zhu Fei Jiu Zhou Xing Project”, Aug. 2018.</li>
+												<li>Blood Donation, Nov. 2018 / Nov. 2019.</li>
+												<li>Volunteer of Shanghai International Marathon, Nov. 2018 / Nov. 2019.</li>
+												<li>Volunteer of Shanghai International Half Marathon, Apr. 2019.</li>
 											</ul>
 										</div>
 									</div>
 								</section>
 							</section>
 
-						<!-- Second Section -->
+						<!-- Honors -->
 							<section id="second" class="main">
 								<header class="major special">
 									<h2>Honors</h2>
 								</header>
 								<section>
-									<div class="row aln-middle">
+									<div class="row">
 										<div class="col-3 col-12-medium">
 											<h3><b>Scholarships</b></h3>
 										</div>
 										<div class="col-9 col-12-medium">
 											<ul>
-												<li>Zhiyuan Honor Scholarship; 2017/2018/2019/2020; top 5%; CNY ¥5,000.</li>
-												<li>Shanghai Jiao Tong University Class B Excellent Scholarship; 2018; top 15%; CNY ¥1,000.</li>
-												<li>Shanghai Jiao Tong University Class C Excellent Scholarship; 2019/2020; top 30%; CNY ¥500.</li>
-												<li>Chen Hao Alumnus, WOSAI Technology Scholarship; 2019; top 15%; CNY ¥5,000.</li>
+												<li>Zhiyuan Honor Scholarship, 2017 / 2018 / 2019 / 2020; top 5%; CNY ¥5,000.</li>
+												<li>Shanghai Jiao Tong University Class B Excellent Scholarship, 2018; top 15%; CNY ¥1,000.</li>
+												<li>Shanghai Jiao Tong University Class C Excellent Scholarship, 2019 / 2020; top 30%; CNY ¥500.</li>
+												<li>Chen Hao Alumnus, WOSAI Technology Scholarship, 2019; top 15%; CNY ¥5,000.</li>
 											</ul>
 										</div>
 									</div>
 								</section>
 								<hr />
 								<section>
-									<div class="row aln-middle">
+									<div class="row">
 										<div class="col-3 col-12-medium">
 											<h3><b>Competitions</b></h3>
 										</div>
 										<div class="col-9 col-12-medium">
 											<ul>
-												<li>Dolor pulvinar magna etiam.</li>
-												<li>Sagittis sed lorem adipiscing.</li>
-												<!-- <li>Felis enim etiam feugiat.</li>
-												<li>Ipsum lorem nullam consequat.</li> -->
+												<li>National Undergraduate Mathetical Contest In Modeling, 2<sup>nd</sup> prize in Shanghai, 2018.</li>
+												<li>Mathetical Contest In Modeling, Honorable Mention Award, 2020.</li>
 											</ul>
 										</div>
 									</div>
 								</section>
 							</section>
-						<!-- Get Started -->
+
+							<!-- Publications -->
 							<section id="cta" class="main">
 								<header class="major special">
 									<h2>Publications</h2>
 								</header>
 								<ul>
-									<li><b>Haoyuan Fu</b>, Wenqiang Xu, Han Xue, Huinan Yang, Ruolin Ye, Yongxi Huang, Zhendong Xue, Yanfeng Wang and Cewu Lu. 
+									<li><b>Haoyuan Fu*</b>, Wenqiang Xu*, Han Xue, Huinan Yang, Ruolin Ye, Yongxi Huang, Zhendong Xue, Yanfeng Wang and Cewu Lu. 
 										<i>RFUniverse: A Physics-based Action-centric Interactive Environment for Everyday Household Tasks</i>, 
 										arXiv preprint arXiv:2202.00199, 2022.
 									</li>
+									
 									<li>
 										Liu Liu, Wenqiang Xu, <b>Haoyuan Fu</b>, Sucheng Qian, Yang Han and Cewu Lu. 
 										<i>AKB-48: A Real-World Articulated Object Knowledge Base</i>, 
 										IEEE Computer Vision and Pattern Recognition (CVPR), 2022.
 									</li>
-									
-									<li>Liu Liu, Han Xue, Wenqiang Xu, <b>Haoyuan Fu</b>, and Cewu Lu.
+
+									<li>Liu Liu*, Han Xue*, Wenqiang Xu, <b>Haoyuan Fu</b>, and Cewu Lu.
 										<i>Towards Real-World Category-level Articulation Pose Estimation</i>, 
 										in IEEE Transactions on Image Processing, vol. 31, pp. 1072-1083, 2022, doi: 10.1109/TIP.2021.3138644.
 									</li>
 									
 									<li>
-										Han Xue, Liu Liu, Wenqiang Xu, <b>Haoyuan Fu</b> and Cewu Lu. 
+										Han Xue*, Liu Liu*, Wenqiang Xu, <b>Haoyuan Fu</b> and Cewu Lu. 
 										<i>OMAD: Object Model with Articulated Deformations for Pose Estimation and Retrieval</i>, 
 										British Machine Vision Conference (BMVC), 2021.
 									</li>
+
+									<!-- <li>
+										Haoyu Xiong*, <b>Haoyuan Fu*</b>, Wenqiang Xu, and Cewu Lu. 
+										<i>RoboTube</i>, 
+										British Machine Vision Conference (BMVC), 2021.
+									</li> -->
+
+									<!-- <li>
+										Ruolin Ye*, Haoyu Xiong*, <b>Haoyuan Fu</b> and Cewu Lu. 
+										<i>RCareWorld</i>, 
+										British Machine Vision Conference (BMVC), 2021.
+									</li> -->
 								</ul>
 							</section>
 
