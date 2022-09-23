@@ -79,8 +79,8 @@
 													Shanghai Jiao Tong University, Shanghai, China, Sep. 2021 - Mar. 2024 (expected).</li>
 											</ul>
 											My research interest lies in <b>Robotics</b>, <b>Simulation</b> and <b>Computer Vision</b>. 
-											One of my current project named <a href="https://sites.google.com/view/rfuniverse">RFUniverse</a>
-											is working on simulating house-hold tasks based on Unity3D.
+											<!-- One of my current project named <a href="https://sites.google.com/view/rfuniverse">RFUniverse</a>
+											is working on simulating house-hold tasks based on Unity3D. -->
 										</p>
 										<p>
 											My hobbies include billiards, basketball and computer DIY. I won the <strong>champion</strong> of SJTU 'Freshman-Cup'
@@ -114,15 +114,14 @@
 												<li>Develop <a href="https://sites.google.com/view/rfuniverse">RFUniverse</a> simulation environment 
 													which aims to support all kinds of house-hold tasks. Mutiple tasks and baseline Reinforcement Learning algorithms have been tested on it. 
 													As a simulation system, this work has been heavily relied on by other works in our group: <b>AKB-48</b>, <b>RCareWorld</b> and <b>RoboTube</b>.</li>
-												<li>Co-author of paper "Towards Real-World Category-level Articulation Pose Estimation" (TIP 2022) and 
-													"OMAD: Object Model with Articulated Deformations for Pose Estimation and Retrieval" (BMVC 2021), where main contribution lies in data annotation and paper polishing.</li>
-												<li>Build simulation environment and train policices of all manipulation tasks in paper "AKB-48: A Real-World Articulated Object Knowledge Base" 
+												<li>Co-author of <b>Towards Real-World Category-level Articulation Pose Estimation</b> (TIP 2022) and 
+													<b>OMAD: Object Model with Articulated Deformations for Pose Estimation and Retrieval</b> (BMVC 2021), where main contribution lies in data annotation and paper polishing.</li>
+												<li>Build simulation environment and train policices of all manipulation tasks in paper <b>AKB-48: A Real-World Articulated Object Knowledge Base</b> 
 													(CVPR 2022) using RL algorithms.</li>
-												<li>Design and build simulation environment and train policices for ADLs in paper "RCareWorld: A Human-centric Simulation World
-													for Caregiving Robots", which is accepted by IROS 2022, and this paper has been selected as a possible finalist of IROS Best Paper Award / Best Student Paper Award / IROS 
-													Best RoboCup Paper Award sponsored by RoboCup Federation.</li>
-												<li>Build the digital twin and train baselines in paper "RoboTube: Learning Household Manipulation from Human Videos with Simulated TwinEnvironments", which
-													is accepted by RSS 2022 Workshop on Learning from Diverse, OfflineData (L-DOD).
+												<li>Design and build simulation environment and train policices for ADLs in paper <b>RCareWorld: A Human-centric Simulation World
+													for Caregiving Robots</b> (IROS 2022), and this paper has been selected as a possible finalist of <b>IROS Best Paper Award / Best Student Paper Award / IROS 
+													Best RoboCup Paper Award</b> sponsored by RoboCup Federation.</li>
+												<li>Build the digital twin and train baselines in paper <b>RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments</b> (oral presentation of CoRL 2022 and RSS 2022 Workshop L-DOD).
 												</li>
 											</ul>
 										</div>
@@ -178,6 +177,25 @@
 									<header class="alt">
 										<h2><b>Selected Projects</b></h2>
 									</header>
+									<div class="row aln-middle">
+										<div class="col-3 col-12-medium">
+											<h3><b>RFUniverse</b></h3>
+											<b>Source code of paper RFUniverse</b>
+											<br />
+											Link: <a href="https://github.com/mvig-robotflow/rfuniverse" class="icon brands fa-github"></a> <a href="https://github.com/mvig-robotflow/pyrfuniverse" class="icon brands fa-github"></a>
+										</div>
+										<div class="col-9 col-12-medium">
+											Household environments are important testbeds for embodied AI research. Many simulation environments have been proposed to develop learning models for solving everyday household tasks. However, though interactions are paid attention to in most environments, the actions operating on the objects are not well supported concerning action types, object types, and interaction physics.
+											<br>
+											To bridge the gap at the action level, we propose a Unity3D-based action-centric environment, <b><a href="https://sites.google.com/view/rfuniverse">RFUniverse</a></b>, for robot learning of everyday household tasks. It also provides a client-server communication framework based on gRPC, which can enable full functionality control of Unity with Python language. To demonstrate the usability of the simulation environment, we perform learning algorithms on various types of tasks, including manipulation, locomotion, multi-agent collaboration and task-and-motion-planning.
+											<ul>
+												<li>We construct a simulation environment RFUniverse, which can support physics-based interactions for all the extracted action and object types.</li>
+												<li>We benchmark 7 kinds of learning tasks on RFUniverse, which cover different aspects of the household tasks.</li>
+												<li>As a simulation system, this work has been heavily relied on by other works in our group: <b>RoboTube</b>, <b>RCareWorld</b> and <b>AKB-48</b>.</li>
+											</ul>
+										</div>
+									</div>
+									<br />
 									<div class="row aln-middle">
 										<div class="col-3 col-12-medium">
 											<h3><b>Optimizing Caffe</b></h3>
@@ -291,6 +309,12 @@
 									<li><b>Haoyuan Fu*</b>, Wenqiang Xu*, Han Xue, Huinan Yang, Ruolin Ye, Yongxi Huang, Zhendong Xue, Yanfeng Wang and Cewu Lu. 
 										<i>RFUniverse: A Physics-based Action-centric Interactive Environment for Everyday Household Tasks</i>, 
 										arXiv preprint arXiv:2202.00199, 2022.
+									</li>
+
+									<li>
+										Haoyu Xiong*, <b>Haoyuan Fu*</b>, Jieyi Zhang, Chen Bao, Qiang Zhang, Yongxi Huang, Wenqiang Xu, AnimeshGarg and Cewu Lu. 
+										<i>RoboTube: Learning Household Manipulation from Human Videos with Simulated TwinEnvironments</i>, 
+										Conference on Robot Learning (CoRL), 2022.
 									</li>
 
 									<li>
