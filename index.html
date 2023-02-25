@@ -73,12 +73,12 @@
 											in Shanghai Jiao Tong University (SJTU). I am expected to graduate in March. 2024.
 											My educational experiences include:
 											<ul>
-												<li><b>Bachelor of engineering (B.Eng) @ Computer Science and Engineering</b>, <br />
+												<li><b>Bachelor of Engineering (B.Eng) @ Computer Science and Engineering</b>, <br />
 													Shanghai Jiao Tong University, Shanghai, China, Sep. 2017 - Jun. 2021;</li>
-												<li><b>Master of Science (M.Sc) @ Computer Science and Engineering</b>, <br />
+												<li><b>Master of Engineering (M.Eng) @ Computer Technology</b>, <br />
 													Shanghai Jiao Tong University, Shanghai, China, Sep. 2021 - Mar. 2024 (expected).</li>
 											</ul>
-											My research interest lies in <b>Robotics</b>, <b>Simulation</b> and <b>Computer Vision</b>. 
+											My research interest lies in <b>Robotics</b>, <b>Simulation</b> and <b>Reinforcement Learning</b>. 
 											<!-- One of my current project named <a href="https://sites.google.com/view/rfuniverse">RFUniverse</a>
 											is working on simulating house-hold tasks based on Unity3D. -->
 										</p>
@@ -87,7 +87,7 @@
 											billiards contest in Oct, 2021 and <strong>runner-up</strong> of SJTU SEIEE 'Rolling-Egg-Cup' basketball contest in Jun, 2021.
 										</p>
 									</div>
-									<span class="image"><img src="images/standrad-photo.jpg" alt="" /></span>
+									<span class="image"><img src="images/photo-tencent.jpg" alt="" /></span>
 								</div>
 							</section>
 
@@ -102,15 +102,16 @@
 									</header>
 									<div class="row aln-middle">
 										<div class="col-3 col-12-medium">
-											<h3><b>MVIG Lab</b></h3>
-											<b>Robotics, Computer Vision</b><br />
+											<h3><b>MVIG - Robotflow</b></h3>
+											<b>Robotics, Simulation, Reinforcement Learning</b><br />
 											Jul. 2019 - present<br />
-											<a href="https://mvig.sjtu.edu.cn/">https://mvig.sjtu.edu.cn/</a>
+											<a href="https://mvig.sjtu.edu.cn/">https://mvig.sjtu.edu.cn/</a><br />
+											<a href="https://robotflow.ai/">https://robotflow.ai/</a>
 										</div>
 										<div class="col-9 col-12-medium">
-											Advised by Prof. Cewu Lu. and Dr. Wenqiang Xu
+											Advised by Prof. Cewu Lu. and Dr. Wenqiang Xu.
 											<ul>
-												<li>One of the main developers in project <a href="https://wenqiangx.github.io/robotflowproject/">MVIG-Robotflow</a> and contribute the initial version of it.</li>
+												<li>One of the main developers in project <a href="https://robotflow.ai/">MVIG-Robotflow</a> and contribute the initial version of it.</li>
 												<li>Develop <a href="https://sites.google.com/view/rfuniverse">RFUniverse</a> simulation environment 
 													which aims to support all kinds of house-hold tasks. Mutiple tasks and baseline Reinforcement Learning algorithms have been tested on it. 
 													As a simulation system, this work has been heavily relied on by other works in our group: <b>AKB-48</b>, <b>RCareWorld</b> and <b>RoboTube</b>.</li>
@@ -121,37 +122,49 @@
 												<li>Design and build simulation environment and train policices for ADLs in paper <b>RCareWorld: A Human-centric Simulation World
 													for Caregiving Robots</b> (IROS 2022), and this paper has been selected as a possible finalist of <b>IROS Best Paper Award / Best Student Paper Award / IROS 
 													Best RoboCup Paper Award</b> sponsored by RoboCup Federation.</li>
-												<li>Build the digital twin and train baselines in paper <b>RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments</b> (oral presentation of CoRL 2022 and RSS 2022 Workshop L-DOD).
+												<li>Build the digital twin and train baselines in paper <b>RoboTube: Learning Household Manipulation from Human Videos with Simulated Twin Environments</b> 
+													(oral presentation of CoRL 2022 and RSS 2022 Workshop L-DOD).
 												</li>
+												<li>Paper <b>RFUniverse: A MultiPhysics Simulation Platform for Embodied AI</b> is submitted to RSS 2023 Demo track!</li>
 											</ul>
 										</div>
 									</div>
 								</section>
 								<hr />
-								<!-- <section>
+								<section>
 									<header class="alt">
 										<h2><b>Internship</b></h2>
 									</header>
-									<div class="row">
+									<div class="row aln-middle">
 										<div class="col-3 col-12-medium">
-											<h3><b>Company name</b></h3>
-											<b>Main work</b><br />
-											start time - end time<br />
-											<a href="#">https://www.demo.com/</a>
+											<h3><b>Tencent / Robotics X</b></h3>
+											<b>Application Research</b><br />
+											Dec. 2022 - present<br />
+											<a href="https://www.tencent.com/">https://www.tencent.com/</a>
 										</div>
 										<div class="col-9 col-12-medium">
-											Some descriptions.
+											I work as an intern in <b>Agent center of Robotics X Lab</b>. My main work includes <b>optimizing Reinforcement Learning
+											tools</b> and <b>developing simulation tasks using Nvidia Isaac Gym</b>. Besides, I participated in smart car project of our group
+											and tried to solve Sim2Real gaps for hardware and software.
 											<ul>
-												<li>Dolor pulvinar magna etiam.</li>
-												<li>Sagittis sed lorem adipiscing.</li>
-												<li>Felis enim etiam feugiat.</li>
-												<li>Ipsum lorem nullam consequat.</li>
+												<li>Developing and optimizing distributed RL tool: As a widely used Distributed Reinforcement Learning tool in Tencent, 
+													<b><a href="https://github.com/tencent-ailab/TLeague">Tleague</a></b>
+													originally uses TensorFlow as its structure. I replaced all TensorFlow codes with Pytorch with the help of 
+													<a href="https://github.com/thu-ml/tianshou">Tianshou</a> reserving socket communication under distributed setting.
+													The main modifidied modules lies in Policy, Replay Buffer and corresponding Data Structure, Actor and Learner.
+												</li>
+												<li><b>Sim2Real</b> transfer of multi-agent smartcars collaboration task: A multi-agent smartcars collaboration task is created
+													and trained with PPO algorithm in TLeague. We employed the trained policy on real smartcars and tried to solve the 
+													gap during transferring. The problems include: QRCode tag localization, PID control, creation and maintenance of
+													dynamic map, and the continuousity of car actions.
+												</li>
+												<!-- <li>Felis enim etiam feugiat.</li>
+												<li>Ipsum lorem nullam consequat.</li> -->
 											</ul>
 										</div>
 									</div>
-									Waiting to be updated...
 								</section>
-								<hr /> -->
+								<hr />
 								<section>
 									<header class="alt aln-middle">
 										<h2><b>Teaching Assistant</b></h2>
@@ -180,14 +193,19 @@
 									<div class="row aln-middle">
 										<div class="col-3 col-12-medium">
 											<h3><b>RFUniverse</b></h3>
-											<b>Source code of paper RFUniverse</b>
-											<br />
-											Link: <a href="https://github.com/mvig-robotflow/rfuniverse" class="icon brands fa-github"></a> <a href="https://github.com/mvig-robotflow/pyrfuniverse" class="icon brands fa-github"></a>
+											<!-- <b>Source code of paper RFUniverse</b><br /> -->
+											<a href="https://arxiv.org/abs/2202.00199" class="icon solid fa-file-pdf"> Paper</a><br/>
+											<a href="https://sites.google.com/view/rfuniverse" class="icon solid fa-link"> Webpage</a><br />
+											<a href="https://github.com/mvig-robotflow/rfuniverse" class="icon brands fa-github"> Code-Unity</a><br />
+											<a href="https://github.com/mvig-robotflow/pyrfuniverse" class="icon brands fa-github"> Code-Python</a>
 										</div>
 										<div class="col-9 col-12-medium">
-											Household environments are important testbeds for embodied AI research. Many simulation environments have been proposed to develop learning models for solving everyday household tasks. However, though interactions are paid attention to in most environments, the actions operating on the objects are not well supported concerning action types, object types, and interaction physics.
-											<br>
-											To bridge the gap at the action level, we propose a Unity3D-based action-centric environment, <b><a href="https://sites.google.com/view/rfuniverse">RFUniverse</a></b>, for robot learning of everyday household tasks. It also provides a client-server communication framework based on gRPC, which can enable full functionality control of Unity with Python language. To demonstrate the usability of the simulation environment, we perform learning algorithms on various types of tasks, including manipulation, locomotion, multi-agent collaboration and task-and-motion-planning.
+											Household environments are important testbeds for embodied AI research. Many simulation environments have been proposed to develop learning models for solving everyday household tasks. 
+											However, though interactions are paid attention to in most environments, the actions operating on the objects are not well supported concerning action types, object types, and interaction physics.
+											<br />
+											To bridge the gap at the action level, we propose a Unity3D-based action-centric environment, RFUniverse, 
+											for robot learning of everyday household tasks. It also provides a client-server communication framework based on gRPC, which can enable full functionality control of Unity with Python language. 
+											To demonstrate the usability of the simulation environment, we perform learning algorithms on various types of tasks, including manipulation, locomotion, multi-agent collaboration and task-and-motion-planning.
 											<ul>
 												<li>We construct a simulation environment RFUniverse, which can support physics-based interactions for all the extracted action and object types.</li>
 												<li>We benchmark 7 kinds of learning tasks on RFUniverse, which cover different aspects of the household tasks.</li>
@@ -196,7 +214,8 @@
 										</div>
 									</div>
 									<br />
-									<div class="row aln-middle">
+
+									<!-- <div class="row aln-middle">
 										<div class="col-3 col-12-medium">
 											<h3><b>Optimizing Caffe</b></h3>
 											<b>Course Project (CS433, SJTU)</b><br />
@@ -214,6 +233,7 @@
 										</div>
 									</div>
 									<br />
+
 									<div class="row aln-middle">
 										<div class="col-3 col-12-medium">
 											<h3><b>Image Classification and Segmentation</b></h3>
@@ -231,6 +251,7 @@
 										</div>
 									</div>
 									<br />
+
 									<div class="row aln-middle">
 										<div class="col-3 col-12-medium">
 											<h3><b>LeetCode 100-day Challenge</b></h3>
@@ -242,9 +263,60 @@
 											I started a LeetCode 100 day chaallenge on Dec 5, 2019 and finally finished it on Mar 13, 2020. 
 											Currently, this repository contains 232 answers of Leetcode problems. I will continue updating this repo if I exercise more.
 										</div>
+									</div> -->
+
+									<div class="row aln-middle">
+										<div class="col-3 col-12-medium">
+											<h3><b>RoboTube</b></h3>
+											<!-- <b>Source code of paper RFUniverse</b><br /> -->
+											<a href="https://openreview.net/forum?id=VD0nXUG5Qk" class="icon solid fa-file-pdf"> Paper</a><br/>
+											<a href="https://www.robotube.org/" class="icon solid fa-link"> Webpage</a><br />
+											<a href="#" class="icon brands fa-github"> Code (Release Soon)</a>
+										</div>
+										<div class="col-9 col-12-medium">
+											RoboTube video dataset contains 5,000 video demonstrations recorded with multi-view RGB-D
+											cameras of human-performing everyday household tasks including manipulation
+											of rigid objects, articulated objects, granular objects, deformable objects, and
+											bimanual manipulation. RT-sim, as the simulated twin environments, consists of
+											3D scanned, photo-realistic objects, minimizing the visual domain gap between the
+											physical world and the simulated environment.
+											<ul>
+												<li>We identify the issues in existing human videos for robot learning, and create a benchmark, RoboTube, which is designed by jointly considering 
+													the human video dataset and the evaluation platform.</li>
+												<li>RoboTube setups environments for 5 task families, namely drawer-closing, mug-pouring, cabinet-opening, bimanual-pot-lifting, and cloth-folding.
+												</li>
+												<li>To benchmark the baseline methods, we construct a simulated twin environment, RT-Sim, for the tasks and objects. It is developed upon RFUniverse 
+													with photo-realistic objects to minimize the visual domain gap.</li>
+												<li>We deploy the learned model on real robot experiments.</li>
+											</ul>
+										</div>
+									</div>
+									<br />
+
+									<div class="row aln-middle">
+										<div class="col-3 col-12-medium">
+											<h3><b>RCareWorld</b></h3>
+											<!-- <b>Source code of paper RFUniverse</b><br /> -->
+											<a href="https://drive.google.com/file/d/1k1OQ6xpr0G4DSw0lSFxrAYv5kO-a0M28/view" class="icon solid fa-file-pdf"> Paper</a><br/>
+											<a href="https://emprise.cs.cornell.edu/rcareworld/" class="icon solid fa-link"> Webpage</a><br />
+											<a href="https://github.com/empriselab/RCareWorld" class="icon brands fa-github"> Code</a>
+										</div>
+										<div class="col-9 col-12-medium">
+											In this paper, we present RCareWorld, a human-centric simulation world for physical and social robot care-giving with support for realistic human modeling, 
+											home environments with multiple levels of accessibility, and robots used for assistance.
+											<ul>
+												<li>We developed Care-Homes that accurately model caregiving homes with modifications for varying levels of accessibility and containing various assistive 
+													devices that are commonly used in caregiving scenarios.</li>
+												<li>We propose a set of realistic robotic caregiving tasks which can provide meaningful assistance to the modeled care-recipients with activities of daily 
+													living.</li>
+												<li>We present baseline control policies for each task in RCareWorld and validate our simulator by successfully applying one of them to real-world physical 
+													and social caregiving scenarios.</li>
+											</ul>
+										</div>
 									</div>
 								</section>
 								<hr />
+								
 								<section>
 									<header class="alt">
 										<h2><b>Social Activities</b></h2>
@@ -317,11 +389,11 @@
 										Conference on Robot Learning (CoRL), 2022.
 									</li>
 
-									<li>
+									<!-- <li>
 										Haoyu Xiong*, <b>Haoyuan Fu*</b>, Jieyi Zhang, Chen Bao, Qiang Zhang, Yongxi Huang, Wenqiang Xu, AnimeshGarg, Huazhe Xu and Cewu Lu. 
 										<i>RoboTube: Learning Household Manipulation from Human Videos with Simulated TwinEnvironments</i>, 
 										Robotics: Science and Systems (RSS) 2022 Workshop on Learning from Diverse, OfflineData (L-DOD).
-									</li>
+									</li> -->
 
 									<li>
 										Ruolin Ye*, WenqiangXu*, <b>Haoyuan Fu</b>, Rajat Kumar Jenamani, Vy Nguyen, Cewu Lu, Katherine Dim-itropoulou and Tapomayukh Bhattacharjee. 
